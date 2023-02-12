@@ -1,7 +1,16 @@
+/* INDEX PAGE */
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
 nav {
     padding-top: 20px;
     margin-right: 20px;
     float: right;
+    font-size: 20px;
+    font-weight: 600;
+
 }
 
 nav ul {
@@ -24,17 +33,76 @@ nav a {
     color: #000;
 }
 
+li :hover {
+    color: blueviolet;
+}
+
+.full-nav {
+    margin-bottom: 2%;
+}
+
 .logo {
     width: 70px;
     height: auto;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
-.triangle {
-    width: 200px;
-    height: 200px;
-    clip-path: polygon(0% 0%, 100% 100%, 100% 0%);
-    background-color: #ff0000;
+.intro {
+    background: #222222;
+    padding-top: 8%;
+    padding-bottom: 4%;
+    padding-left: 5%;
 }
-  
+
+.white-logo {
+    width: 70%;
+    height: auto;
+}
+
+.intro-words {
+    color: aliceblue;
+    padding-right: 10%;
+    font-size: 25px;
+}
+
+.td-img {
+    width: 30%;
+}
+
+.hding {
+    text-align: center;
+    font-size: 50px;
+}
+
+.prod {
+    margin-top: 80px;
+}
+
+.row {
+    margin-top: 70px;
+}
+
+.column {
+    float: left;
+    width: 23%;
+    padding: 10px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card-pic {
+    width: 300px;
+    height: 200px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #222222;
+    padding-bottom: 30px;
+    padding-top: 70px;
+}
+
