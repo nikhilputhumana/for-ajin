@@ -49,8 +49,10 @@ li :hover {
 }
 
 /*  CONTENT  */
-
-
+.heading {
+    text-align: center;
+    font-size: 40px;
+}
 
 /*  FOOTER  */
 footer {
