@@ -29,7 +29,7 @@ nav a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    color: #000;
+    color: white;
 }
 
 li :hover {
@@ -37,7 +37,8 @@ li :hover {
 }
 
 .full-nav {
-    margin-bottom: 2%;
+    padding-bottom: 2%;
+    background-color: #222222;
 }
 
 .logo {
@@ -46,6 +47,9 @@ li :hover {
     margin-top: 20px;
     margin-left: 30px;
 }
+
+/*  CONTENT  */
+
 
 
 /*  FOOTER  */
