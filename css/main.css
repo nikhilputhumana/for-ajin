@@ -68,6 +68,7 @@ li :hover {
     color: aliceblue;
     padding-right: 10%;
     font-size: 25px;
+    mix-blend-mode: screen;
 }
 
 .td-img {
@@ -96,11 +97,16 @@ li :hover {
 
 .card {
     text-align: center;
+    transition: transform .2s;
 }
 
 .card-pic {
     width: 300px;
     height: 200px;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 /*  FOOTER  */
