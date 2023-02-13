@@ -51,9 +51,28 @@ li :hover {
 }
 
 /*  CONTENT  */
+.content {
+    margin: 40px;
+}
+
 .heading {
     text-align: center;
     font-size: 40px;
+}
+
+.row {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.column {
+    flex: 25%;
+    padding: 25px;
+}
+
+.images {
+    width: 100%;
 }
 
 /*  FOOTER  */
